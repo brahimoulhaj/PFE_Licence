@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#555"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="INSCRIPTION"/>
+
+    <EditText
+        android:id="@+id/NomPrenom"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#555"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        android:fontFamily="casual"
+        android:hint="Nom et prénom"
+        android:background="#55ffffff"/>
+
+    <EditText
+        android:id="@+id/cin_register"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#555"
+        android:inputType="text"
+        android:textStyle="bold|italic"
+        android:fontFamily="casual"
+        android:hint="CIN"
+        android:background="#55ffffff"/>
+
+    <EditText
+        android:id="@+id/date_naissance"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#555"
+        android:inputType="date"
+        android:textStyle="bold|italic"
+        android:fontFamily="casual"
+        android:hint="Date de naissance"
+        android:focusable="false"
+        android:background="#55ffffff"/>
+
+    <EditText
+        android:id="@+id/phone_register"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#555"
+        android:inputType="number"
+        android:textStyle="bold|italic"
+        android:fontFamily="casual"
+        android:hint="N° de téléphone"
+        android:background="#55ffffff"/>
+
+    <RadioGroup
+        android:layout_marginBottom="5dp"
+        android:id="@+id/sexe"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/sexe_homme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOMME"
+            android:textColor="#555"
+            android:checked="true"
+            android:layout_marginRight="50dp"/>
+
+        <RadioButton
+            android:id="@+id/sexe_femme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#555"
+            android:text="FEMME"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bu_inscription"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#eee"
+        android:textColor="#13637F"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:text="Inscription"/>
+
+    <TextView
+        android:id="@+id/Annuler"
+        android:fontFamily="casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:textColor="#555"
+        android:layout_marginBottom="0dp"
+        android:textStyle="bold"/>
+    
+</LinearLayout>

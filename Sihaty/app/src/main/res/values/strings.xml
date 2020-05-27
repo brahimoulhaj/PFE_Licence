@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Sihaty</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="d_connecter">Déconnecter</string>
+    <string name="mon_profil">Mon profil</string>
+    <string name="mes_dossiers">Mes dossiers</string>
+    <string name="rendez_vous">rendez-vous</string>
+    <string name="register">Inscription</string>
+    <string name="txt_DemanderRDV">Demander un rendez-vous</string>
+    <string name="txt_monprofil">Mon profil</string>
+    <string name="txt_rendezvous">Rendez-vous</string>
+    <string name="txt_mesdossiers">Mes dossiers</string>
+    <string name="txt_mesrendezvous">Mes rendes-vous</string>
+    <string name="Refresh">Actualiser</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tout_marquer_comme_lu">Tout marquer comme lu</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="msg_to_new_user">Votre compte n\'est pas en cours confirmé.\nPour activer votre compte, vous devez nous apporter une copier de CIN</string>
+    <string name="t_l_charger"><u>Télécharger</u></string>
+    <string name="voir_les_analyses">Voir les analyses</string>
+</resources>
